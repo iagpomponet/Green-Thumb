@@ -1,0 +1,61 @@
+.aside-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 5%;
+  height: 130%;
+  top: 50px;
+}
+
+.aside-logo svg {
+  margin-top: 20px;
+  height: 100%;
+}
+
+.aside-logo svg:first-child {
+  max-height: 209px !important;
+}
+
+.results {
+  margin-top: 50px;
+}
+
+.results__main-logo {
+  position: absolute;
+  left: 5%;
+}
+
+.results__container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.results__header h1 {
+  font-size: 65px;
+  margin-bottom: 70px;
+}
+/*# sourceMappingURL=results.css.map */

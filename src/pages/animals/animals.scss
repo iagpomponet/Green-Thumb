@@ -1,0 +1,44 @@
+body{
+    background: #f2f2f2;
+}
+
+.animals{
+    margin-top: 50px;
+}
+
+.animals__main-logo {
+    position: absolute;
+    left: 5%;
+}
+
+.animals__container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h3{
+        font-weight: lighter;
+        font-size: 35px;
+        margin-top:100px;
+        strong {
+            margin-right: 10px;
+            color: #6e6e6e;
+        }
+    }
+    h4{
+        font-weight: lighter;
+        margin-bottom: 50px;
+        margin-top: 0;
+        strong {
+            color: #6e6e6e;
+        }
+    }
+}

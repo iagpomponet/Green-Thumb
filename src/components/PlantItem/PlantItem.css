@@ -1,0 +1,107 @@
+.results__plant-item {
+  background: white;
+  max-width: 268px;
+  max-height: 342px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 15px;
+  text-align: left;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.results__plant-name {
+  font-weight: 600;
+  font-size: 18px;
+  color: #15573F;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.results__plant-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 213px;
+  margin: 0 auto;
+}
+
+.results__plant-price {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.results__plant-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.results__plant-props {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.results__plant-props span {
+  margin: 5px;
+}
+
+.results__plant-props span svg {
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.results__props-buyBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+}
+
+.results__props-buyBtn:hover {
+  cursor: pointer;
+}
+
+.results__props-buyBtn:hover svg {
+  fill: #15573F;
+}
+
+.results__props-buyBtn:hover svg path {
+  fill: #fff;
+}
+
+img#plant-img {
+  max-width: 170px;
+  max-height: 170px;
+}
+/*# sourceMappingURL=PlantItem.css.map */

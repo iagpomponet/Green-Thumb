@@ -1,0 +1,97 @@
+.animals-select__options span {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 215px;
+  max-height: 190px;
+  height: 190px;
+}
+
+.animals-select__options span:hover {
+  background-color: #fd8972;
+  cursor: pointer;
+  color: white;
+}
+
+.animals-select__options span:hover svg path {
+  fill: white !important;
+}
+
+.animals-select__options span:hover strong {
+  font-weight: 600;
+}
+
+.animals-select__options strong {
+  margin-top: 30px;
+  font-weight: lighter;
+}
+
+.animals-select__options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.animals-select {
+  width: 100%;
+  max-width: 550px;
+}
+
+.animals-select__navigate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+
+.animals-select__next-btn:hover {
+  cursor: pointer;
+  fill: #15573F;
+}
+
+.animals-select__next-btn:hover path {
+  stroke: white;
+}
+
+.animals-select__finish-btn:hover {
+  cursor: pointer;
+  fill: #15573F;
+}
+
+.animals-select__finish-btn:hover path {
+  stroke: white;
+}
+
+.animals-selected {
+  background-color: #fd8972 !important;
+  color: white;
+}
+
+.animals-selected svg path {
+  fill: white !important;
+}
+
+.animals-selected strong {
+  font-weight: 600 !important;
+}
+/*# sourceMappingURL=AnimalSelect.css.map */

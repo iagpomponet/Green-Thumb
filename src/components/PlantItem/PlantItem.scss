@@ -1,0 +1,75 @@
+$green : #15573F;
+
+.results__plant-item {
+    background: white;
+    max-width: 268px;
+    max-height: 342px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    text-align: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.results__plant-name {
+    font-weight: 600;
+    font-size: 18px;
+    color: $green;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.results__plant-info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 213px;
+    margin: 0 auto;
+}
+.results__plant-price {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.results__plant-img {
+    display: flex;
+    justify-content: center;
+}
+
+.results__plant-props {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    span{
+        margin: 5px;
+        svg{
+            max-width: 25px;
+            max-height: 25px;
+        }
+    }
+}
+
+.results__props-buyBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    &:hover{
+        cursor: pointer;
+        svg{
+            fill: $green;
+            path{
+                fill: #fff;
+            }
+        }
+    }
+}
+
+
+
+img#plant-img {
+    max-width: 170px;
+    max-height: 170px;
+}

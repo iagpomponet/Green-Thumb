@@ -1,0 +1,83 @@
+$green : #15573F;
+
+.animals-select__options{
+    span{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            background: #fff;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            border-radius: 4px;
+            max-width: 215px;
+            max-height: 190px;
+            height: 190px;
+            &:hover{
+                background-color: #fd8972;
+                cursor: pointer;
+                color: white;
+                svg {
+                    path{
+                        fill: white!important;
+                    }
+                }
+                strong{
+                    font-weight: 600;
+                }
+            }
+        }
+    strong {
+        margin-top: 30px;
+        font-weight: lighter;
+    }
+}
+
+.animals-select__options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.animals-select {
+    width: 100%;
+    max-width: 550px;
+}
+
+.animals-select__navigate {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.animals-select__next-btn{
+    &:hover{
+        cursor: pointer;
+            fill: $green;
+            path{
+                stroke: white;
+            }
+    }
+}
+
+.animals-select__finish-btn{
+    &:hover{
+        cursor: pointer;
+            fill: $green;
+            path{
+                stroke: white;
+            }
+    }
+}
+
+.animals-selected{
+    background-color: #fd8972!important;
+    color: white;
+    svg {
+        path{
+            fill: white!important;
+        }
+    }
+    strong{
+        font-weight: 600!important;
+    }
+}

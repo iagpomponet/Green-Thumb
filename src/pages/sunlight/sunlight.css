@@ -1,0 +1,70 @@
+body {
+  background: #f2f2f2;
+}
+
+.sunlight {
+  margin-top: 50px;
+}
+
+.sunlight__main-logo {
+  position: absolute;
+  left: 5%;
+}
+
+.sunlight__container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sunlight__container h3 {
+  font-weight: lighter;
+  font-size: 30px;
+  max-width: 470px;
+  margin-bottom: 70px;
+  line-height: 45px;
+}
+
+.sunlight__container h3 strong {
+  margin-right: 10px;
+  color: #6e6e6e;
+}
+
+img.sunlight__logo {
+  max-width: 126px;
+  max-height: 126px;
+}
+
+@media (min-width: 768px) {
+  .sunlight__container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .sunlight__container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sunlight__container {
+    width: 1170px;
+  }
+}
+/*# sourceMappingURL=sunlight.css.map */

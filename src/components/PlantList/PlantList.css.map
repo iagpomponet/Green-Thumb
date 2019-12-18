@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,sBAAsB,CAAC;EACnB,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,SAAS,EAAE,KAAK;EAChB,eAAe,EAAE,MAAM;EACvB,aAAa,EAAE,KAAK;CACvB",
+    "sources": [
+        "PlantList.scss"
+    ],
+    "names": [],
+    "file": "PlantList.css"
+}
